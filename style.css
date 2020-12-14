@@ -1,0 +1,74 @@
+/* стили для самой стильной красотки */
+* {
+    background-color: chocolate;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 10px;
+
+}
+
+.img img {
+    width: 380px;
+    padding: 5px;
+}
+
+.audio {
+    height: 15px;
+    opacity: 0.9;
+}
+
+.sdr {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.sdr2 {
+    background-color: darkorange;
+    font-size: 15px;
+    color: white;
+}
+
+.nazhmi {
+    background-color: white;
+}
+
+.nazhmi:active {
+    color: chocolate;
+    font-size: 15px;
+}
+
+.wishes-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 200px;
+}
+
+.item {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wish-text {
+    background-color: #e1d7ec;
+    padding: 2px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
