@@ -23,6 +23,7 @@
 .audio {
     height: 15px;
     opacity: 0.9;
+    width: 370px;
 }
 
 .sdr {
@@ -39,8 +40,16 @@
     color: white;
 }
 
+.sdr3 {
+    background-color: #ee6cf6;
+    font-size: 25px;
+    color: white;
+}
+
 .nazhmi {
     background-color: white;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .nazhmi:active {
